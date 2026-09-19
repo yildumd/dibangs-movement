@@ -1,0 +1,13 @@
+footer{background:var(--navy-deep);color:rgba(255,255,255,0.55);padding:56px 0 34px;}
+footer .wrap{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:24px;}
+footer .brand{display:flex;align-items:center;gap:12px;}
+footer .brand-mark{
+  width:34px;height:34px;background:var(--gold);display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',serif;font-weight:700;font-size:0.95rem;color:var(--navy-deep);
+  clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+footer .brand-text{font-family:'Fraunces',serif;color:#fff;font-size:1.02rem;font-weight:600;letter-spacing:0.01em;}
+footer .brand-text span{display:block;font-family:'Space Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;margin-top:2px;}
+footer .foot-links{display:flex;gap:26px;font-size:0.86rem;}
+footer .foot-links a:hover{color:#fff;}
+footer .disclaimer{margin-top:34px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.1);font-size:0.78rem;color:rgba(255,255,255,0.4);width:100%;}

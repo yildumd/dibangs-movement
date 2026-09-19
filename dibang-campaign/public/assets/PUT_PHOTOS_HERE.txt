@@ -1,0 +1,9 @@
+Drop these three photos into this "assets" folder before deploying, using these exact filenames
+(the site already references them):
+
+  portrait-formal.jpg   -> the photo of him in the blue traditional cap + agbada (used in the hero)
+  portrait-suit.jpg     -> the photo of him in the blue suit + gold tie (used in the About section)
+  portrait-casual.jpg   -> the photo of him in white agbada + sunglasses (currently unused, kept as a spare
+                           for a future gallery section)
+
+Once added, delete this file — it's just a placeholder note, not part of the site.

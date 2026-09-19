@@ -1,0 +1,11 @@
+#involved{background:var(--royal);color:#fff;padding:100px 0;}
+#involved .wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+#involved h2{color:#fff;font-size:clamp(2rem,3.4vw,2.7rem);}
+#involved p{color:rgba(255,255,255,0.78);margin-top:18px;font-size:1.02rem;max-width:460px;}
+.contact-list .row{display:flex;justify-content:space-between;padding:16px 0;border-bottom:1px solid rgba(255,255,255,0.22);}
+.contact-list .row span:first-child{font-family:'Space Mono',monospace;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:rgba(255,255,255,0.6);}
+.contact-list .row a,.contact-list .row span:last-child{font-weight:600;}
+
+@media (max-width: 900px){
+  #involved .wrap{grid-template-columns:1fr;}
+}

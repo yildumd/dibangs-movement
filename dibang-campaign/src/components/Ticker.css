@@ -1,0 +1,20 @@
+#ticker{
+  background:var(--clay);color:#fff;
+  overflow:hidden;white-space:nowrap;
+  height:38px;display:flex;align-items:center;
+  position:relative;z-index:99;
+}
+#ticker .ticker-track{
+  display:inline-flex;align-items:center;
+  animation:tickerScroll 32s linear infinite;
+  will-change:transform;
+}
+#ticker .ticker-track span{
+  font-family:'Space Mono',monospace;font-size:0.74rem;letter-spacing:0.08em;
+  text-transform:uppercase;padding:0 28px;display:inline-flex;align-items:center;gap:10px;
+}
+#ticker .ticker-track span::before{content:"✦";color:var(--gold);}
+@keyframes tickerScroll{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-50%);}
+}

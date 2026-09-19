@@ -1,0 +1,8 @@
+#joinstrip{background:var(--gold);padding:56px 0;}
+#joinstrip .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;}
+#joinstrip h3{color:var(--navy-deep);font-size:1.6rem;max-width:420px;}
+#joinstrip p{color:rgba(20,27,51,0.75);margin-top:6px;font-size:0.95rem;}
+#joinForm{display:flex;gap:10px;flex-wrap:wrap;}
+#joinForm input{padding:14px 18px;border:1px solid rgba(20,27,51,0.3);min-width:240px;font-family:'Work Sans',sans-serif;font-size:0.95rem;background:#fff;}
+#joinForm button{background:var(--navy-deep);color:#fff;border:0;padding:14px 26px;font-weight:700;font-size:0.92rem;cursor:pointer;transition:background 0.2s;}
+#joinForm button:hover{background:var(--navy);}
