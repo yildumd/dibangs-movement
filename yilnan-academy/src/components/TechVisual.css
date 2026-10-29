@@ -1,0 +1,20 @@
+/* Always dark, like a real code editor, in both themes. */
+.tech-visual {
+  --tv-bg: #0B1220; --tv-bar: #111A2C; --tv-fg: #D6E2F5; --tv-dim: #6E7F99;
+  --tv-key: #7DD3FC; --tv-str: #FBBF24; --tv-num: #F59E0B;
+  background: var(--tv-bg); color: var(--tv-fg);
+  aspect-ratio: 16 / 9; width: 100%; overflow: hidden;
+  display: grid; grid-template-rows: auto 1fr;
+  font: 13px/1.65 var(--mono);
+}
+.tech-visual.tall { aspect-ratio: 4 / 3.1; border-radius: 16px; border: 1px solid var(--line); }
+.tv-bar { display: flex; align-items: center; gap: 7px; padding: 10px 14px; background: var(--tv-bar); color: var(--tv-dim); font-size: 12px; }
+.tv-bar i { width: 10px; height: 10px; border-radius: 50%; background: #334155; }
+.tv-bar i:first-child { background: #F59E0B; }
+.tv-bar span { margin-left: 8px; }
+.tech-visual pre { margin: 0; padding: 16px 18px; white-space: pre; overflow: hidden; font: inherit; }
+.tech-visual .c { color: var(--tv-dim); }
+.tech-visual .k { color: var(--tv-key); }
+.tech-visual .s { color: var(--tv-str); }
+.tech-visual .n { color: var(--tv-num); }
+@media (max-width: 460px) { .tech-visual { font-size: 11px; } }
